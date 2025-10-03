@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/mouse.h>
 
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
+
+#include <dt-bindings/zmk/pointing.h>
+
 / {
 	behaviors {
         	hml: home_row_mod_left {
@@ -83,10 +88,10 @@
                 mouse {
                         display-name = "Mouse";
                         bindings = <
-   &none &none    &none    &none     &none     &none      &kp K_AGAIN &kp K_PASTE    &kp K_COPY     &kp K_CUT    &kp K_UNDO      &none
-   &none &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none      &none       &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none
-   &none &none    &none    &none     &none     &none      &none       &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &none
-                           &none     &none     &none      &mkp RCLK   &mkp LCLK &mkp MCLK
+   &none &none    &none    &none     &none     &none      &none     &none          &mkp MB4       &mkp MB5     &none           &none
+   &none &kp LGUI &kp LALT &kp LCTRL &kp LSHFT &none      &none     &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none
+   &none &none    &none    &none     &none     &none      &none     &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &none
+                           &none     &none     &none      &mkp RCLK &mkp LCLK &mkp MCLK
                         >;
                 };
 
