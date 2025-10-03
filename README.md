@@ -1,5 +1,5 @@
 # TODO
 - [ ] NKRO
 - [ ] Sleep/Deep-sleep
-- [ ] Increase mousue speed
+- [ ] Increase mouse speed
 - [ ] Battery %
