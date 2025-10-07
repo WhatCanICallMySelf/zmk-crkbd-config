@@ -5,12 +5,12 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: zmk-locales
-      url-base: github.com/joelspadin/zmk-locales
+      url-base: github.com/joelspadin
   projects:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: locales
+    - name: zmk-locales
       remote: zmk-locales
   self:
     path: config
