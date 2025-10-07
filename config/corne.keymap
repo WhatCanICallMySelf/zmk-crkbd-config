@@ -14,7 +14,7 @@
 
 #include <dt-bindings/zmk/pointing.h>
 
-#include <locale/keys_no.h>
+#include <locale/keys_nb.h>
 
 / {
 	behaviors {
