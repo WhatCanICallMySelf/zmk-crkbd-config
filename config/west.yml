@@ -10,7 +10,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: locales
-      remote: zmk-locales
+    - name: zmk-locales
+      remote: joelspadin
   self:
     path: config
