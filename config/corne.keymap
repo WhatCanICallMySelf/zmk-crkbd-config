@@ -14,6 +14,8 @@
 
 #include <dt-bindings/zmk/pointing.h>
 
+#include <locale/keys_no.h>
+
 / {
 	behaviors {
         	hml: home_row_mod_left {
@@ -118,10 +120,10 @@
                 sym {
                         display-name = "Sym";
                         bindings = <
-   &none &kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC       &none &none     &none     &none    &none    &none 
-   &none &kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS       &none &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &none 
-   &none &kp TILDE &kp EXCL &kp AT    &kp HASH  &kp PIPE       &none &none     &none     &none    &none    &none
-                            &kp LPAR  &kp RPAR  &kp UNDER      &none &none     &none
+   &none &kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC         &none &none     &none     &none    &none    &none 
+   &none &kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS         &none &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &none 
+   &none &kp TILDE &kp EXCL &kp AT    &kp HASH  &kp ND_PIPE      &none &none     &none     &none    &none    &none
+                            &kp LPAR  &kp RPAR  &kp UNDER        &none &none     &none
                         >;
                 };
 
