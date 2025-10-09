@@ -119,10 +119,10 @@
                 sym {
                         display-name = "Sym";
                         bindings = <
-   &none &kp LBRC  &kp AMPS &kp ASTRK &kp LPAR  &kp RBRC         &none &none     &none     &none    &none    &none 
-   &none &kp COLON &kp DLLR &kp PRCNT &kp CARET &kp PLUS         &none &kp LSHFT &kp LCTRL &kp LALT &kp LGUI &none 
-   &none &kp TILDE &kp EXCL &kp AT    &kp HASH  &kp NB_PIPE      &none &none     &none     &none    &none    &none
-                            &kp LPAR  &kp RPAR  &kp UNDER        &none &none     &none
+   &none &kp NB_PRCNT &kp NB_LT   &kp NB_LBRC &kp NB_RBRC  &kp NB_PIPE       &kp NB_ASTRK &kp NB_SQT   &kp NB_CARET &none &none &none 
+   &none &kp NB_HASH  &kp NB_GT   &kp NB_LPAR &kp NB_RPAR  &kp NB_TILDE      &kp NB_PLUS  &kp NB_DQT   &kp NB_AT    &none &none &none
+   &none &kp NB_AMPS  &kp NB_DLLR &kp NB_LBKT &kp NB_RBKT  &kp NB_FSLH       &kp NB_BSLH  &kp NB_GRAVE &none        &none &none &none
+                                  &kp NB_EXCL &kp NB_EQUAL &kp NB_QMARK      &none        &none        &none
                         >;
                 };
 
